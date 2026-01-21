@@ -3,8 +3,7 @@ Description=Local python webserver
 After=network.target
 
 [Service]
-ExecStart=/home/pi/env/bin/python /home/pi/axis/cts-temperature/weblib/heartbeat_app.py /home/pi/axis/cts-temperature/conf/settings.json
-#ExecStart=cat /home/pi/cts/kiosk/conf/settings.json
+ExecStart=/home/pi/env/bin/python /home/pi/axis/cts-temperature/weblib/temperature_app.py /home/pi/axis/cts-temperature/conf/settings.json
 Restart=always
 RestartSec=5
 User=pi

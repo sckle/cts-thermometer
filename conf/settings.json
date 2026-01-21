@@ -1,5 +1,4 @@
 {
-    "start-delay": 60,
     "MQTT-AWS": {
         "broker": "populus-mqtt.safecity.axis.com",
         "port": 1883,
@@ -7,6 +6,12 @@
         "password": "systems",
         "topic": "heartbeat",
         "interval": 600
+    },
+    "DS18B20": {
+        "topic": "cts/lab/temperature",
+        "id": [
+            "28-3c01d075c36a"
+        ]
     }
 }
 
