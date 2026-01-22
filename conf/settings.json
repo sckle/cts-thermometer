@@ -5,7 +5,7 @@
         "username": "cts",
         "password": "systems",
         "topic": "heartbeat",
-        "interval": 600
+        "timeout": 5
     },
     "DS18B20": {
         "topic": "cts/lab/temperature",
